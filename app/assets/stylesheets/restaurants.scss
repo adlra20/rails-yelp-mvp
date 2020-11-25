@@ -1,3 +1,30 @@
 // Place all the styles related to the Restaurants controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400');
+
+body {
+  font-family: Roboto;
+  font-weight: 300;
+  padding: 0 24px;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+p {
+  font-size: 24px;
+}
+
+a{
+  text-decoration: none;
+  color: cadetblue;
+  font-weight: bold;
+}
+
+p.details{
+  width: 400px;
+  padding: 20px 20px;
+  background-color: beige;
+}
